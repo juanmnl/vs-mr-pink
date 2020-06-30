@@ -2,6 +2,8 @@
 
 _I wanna find out who the bad guy is._
 
+![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/preview.jpg)
+
 - Minimal color palette
 - Not so dark theme
 - Precision contrast
