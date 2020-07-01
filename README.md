@@ -16,6 +16,21 @@ Screenshot font:
 
 - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
 
+_if you use bracket pair colorizer 2, you can add this to your `settings.json`_
+
+```json
+"bracket-pair-colorizer-2.colors": [
+
+    "rgb(209, 103, 181)",
+    "rgb(107, 109, 140)",
+    "rgb(168, 195, 200)"
+  ]
+```
+
+![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/colorizer.jpg)
+
+---
+
 ![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/preview.jpg)
 ![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/movie.jpg)
 
