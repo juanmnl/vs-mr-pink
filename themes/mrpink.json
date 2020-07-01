@@ -60,9 +60,9 @@
     "statusBar.background": "#1E1E25",
     "statusBar.foreground": "#b5becf",
     "statusBar.debuggingBackground": "#D58FDB",
-    "statusBar.debuggingForeground": "#FFFFFF",
+    "statusBar.debuggingForeground": "#1E1E25",
     "statusBarItem.hoverBackground": "#0000005b",
-    "statusBar.noFolderBackground": "#25252F",
+    "statusBar.noFolderBackground": "#1E1E25",
 
     "tab.activeBackground": "#25252F",
     "tab.border": "#1E1E25",
@@ -73,7 +73,7 @@
     "titleBar.inactiveBackground": "#1E1E25",
     "titleBar.inactiveForeground": "#7b7f86",
 
-    "extensionButton.prominentBackground": "#D63667",
+    "extensionButton.prominentBackground": "#D167B5",
     "extensionButton.prominentHoverBackground": "#ff16b196",
 
     "terminal.foreground": "#F6F8F7",
@@ -83,12 +83,12 @@
     "terminal.ansiBrightCyan": "#3EA7E0",
     "terminal.ansiBrightGreen": "#85EEA7",
     "terminal.ansiBrightMagenta": "#F806FA",
-    "terminal.ansiBrightRed": "#D63667",
+    "terminal.ansiBrightRed": "#D167B5",
     "terminal.ansiBrightYellow": "#EEE985",
     "terminal.ansiCyan": "#3EA7E0",
     "terminal.ansiGreen": "#85EEA7",
     "terminal.ansiMagenta": "#F806FA",
-    "terminal.ansiRed": "#D63667",
+    "terminal.ansiRed": "#D167B5",
     "terminal.ansiYellow": "#EEE985",
     "terminal.selectionBackground": "#ffffff3b",
     "terminalCursor.background": "#A8C3C8",
@@ -100,7 +100,7 @@
 
     "gitDecoration.addedResourceForeground": "#3EA7E0",
     "gitDecoration.modifiedResourceForeground": "#F5F1A9",
-    "gitDecoration.deletedResourceForeground": "#D63667",
+    "gitDecoration.deletedResourceForeground": "#D167B5",
     "gitDecoration.untrackedResourceForeground": "#85EEA7",
     "gitDecoration.ignoredResourceForeground": "#D5D8DA59"
   },
@@ -213,7 +213,7 @@
       "name": "Keyword",
       "scope": "keyword",
       "settings": {
-        "foreground": "#D63667",
+        "foreground": "#D167B5",
         "fontStyle": "italic"
       }
     },
@@ -344,7 +344,7 @@
       "name": "CSS #id",
       "scope": "entity.other.attribute-name.id",
       "settings": {
-        "foreground": "#D63667"
+        "foreground": "#D167B5"
       }
     },
     {
@@ -354,7 +354,7 @@
         "entity.other.attribute-name.pseudo-class"
       ],
       "settings": {
-        "foreground": "#F2F2F2"
+        "foreground": "#F6F8F7"
       }
     },
     {
@@ -368,7 +368,7 @@
       "name": "Markup quote",
       "scope": "markup.quote",
       "settings": {
-        "foreground": "#D63667"
+        "foreground": "#D167B5"
       }
     },
     {
@@ -382,7 +382,7 @@
       "name": "Markup link",
       "scope": "markup.underline.link",
       "settings": {
-        "foreground": "#F2F2F2"
+        "foreground": "#F6F8F7"
       }
     },
     {
@@ -396,14 +396,14 @@
       "name": "Python function call",
       "scope": "meta.function-call.generic.python",
       "settings": {
-        "foreground": "##F6F8F7"
+        "foreground": "#F6F8F7"
       }
     },
     {
       "name": "C# storage type",
       "scope": "storage.type.cs",
       "settings": {
-        "foreground": "#D63667"
+        "foreground": "#D167B5"
       }
     },
     {
@@ -427,21 +427,28 @@
       "name": "C++ operators",
       "scope": "source.cpp keyword.operator",
       "settings": {
-        "foreground": "#D63667"
+        "foreground": "#D167B5"
       }
     },
     {
       "name": "Markdown Punctuation heading",
       "scope": "punctuation.definition.heading.markdown",
       "settings": {
-        "foreground": "#96a0ff7c"
+        "foreground": "#D167B5"
+      }
+    },
+    {
+      "name": "Markdown Punctuation list",
+      "scope": "punctuation.definition.list",
+      "settings": {
+        "foreground": "#D167B5"
       }
     },
     {
       "name": "Markdown Bold Punctuation",
       "scope": "punctuation.definition.bold.markdown",
       "settings": {
-        "foreground": "#ff16b17a"
+        "foreground": "#D58FDB7a"
       }
     },
     {
@@ -453,7 +460,7 @@
     },
     {
       "name": "Markdown Bold",
-      "scope": "markup.bold.markdown",
+      "scope": ["markup.bold.markdown", "entity.name.section.markdown"],
       "settings": {
         "fontStyle": "bold"
       }
