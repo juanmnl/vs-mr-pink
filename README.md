@@ -1,16 +1,18 @@
 ## What Happened To Mr. Pink?
 
+Just try it! (and let me know what you think about it) 😅
+
 > “Do you know what this is? It's the world's smallest violin playing just for the waitresses.” 🎻
 
-**A minimalistic syntax theme named after the fictional character from Quentin Tarantino's film: Reservoir Dogs**
+**A minimalistic syntax themed around Mr. Pink, a fictional character from Quentin Tarantino's film: Reservoir Dogs**
 
 ![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/main.png)
 
 - Minimal color palette
 - Subtle dark theme
 - Precision contrast
-- Readability
-- Long term usage
+- Code readability
+- All day usage
 
 Screenshot font:
 
