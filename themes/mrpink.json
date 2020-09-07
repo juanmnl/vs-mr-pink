@@ -396,8 +396,7 @@
       "name": "Yaml Tag",
       "scope": [
         "entity.name.tag.yaml",
-        "punctuation.definition.block.sequence.item.yaml",
-        "source.yaml"
+        "punctuation.definition.block.sequence.item.yaml"
       ],
       "settings": {
         "foreground": "#D167B5"
