@@ -393,6 +393,17 @@
       }
     },
     {
+      "name": "Yaml Tag",
+      "scope": [
+        "entity.name.tag.yaml",
+        "punctuation.definition.block.sequence.item.yaml",
+        "source.yaml"
+      ],
+      "settings": {
+        "foreground": "#D167B5"
+      }
+    },
+    {
       "name": "Python function call",
       "scope": "meta.function-call.generic.python",
       "settings": {

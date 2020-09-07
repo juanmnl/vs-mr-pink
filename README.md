@@ -11,8 +11,8 @@ Just try it! (and let me know what you think about it) 😅
 - Minimal color palette
 - Subtle dark theme
 - Precision contrast
-- Code readability
-- All day usage
+- Focused on code readability
+- & all day usage
 
 Screenshot font:
 
