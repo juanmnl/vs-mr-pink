@@ -2,7 +2,7 @@
   "name": "vscode-theme-mr-pink",
   "displayName": "Mr Pink",
   "description": "I wanna find out who the bad guy is.",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "publisher": "juanmnl",
   "engines": {
     "vscode": "^1.16.0"
