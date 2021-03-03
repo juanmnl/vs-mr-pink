@@ -148,7 +148,13 @@
       "scope": [
         "meta.jsx.children.js",
         "meta.property-value.css",
-        "text.html.derivative"
+        "text.html.derivative",
+        "constant.length.units.css",
+        "support.function.misc.css",
+        "support.function.transform.css",
+        "meta.function.color.css",
+        "constant.other.color.rgb-value.hex.css",
+        "meta.identifier.css"
       ],
       "settings": {
         "foreground": "#F6F8F7"
