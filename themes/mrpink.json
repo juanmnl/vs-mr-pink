@@ -487,6 +487,436 @@
       "settings": {
         "fontStyle": "italic"
       }
+    },
+
+    {
+      "name": "TypeScript/JavaScript Types",
+      "scope": [
+        "entity.name.type",
+        "entity.name.type.alias",
+        "entity.name.type.class",
+        "entity.name.type.interface",
+        "entity.name.type.enum",
+        "entity.name.type.module",
+        "support.type",
+        "support.type.builtin",
+        "support.type.primitive"
+      ],
+      "settings": {
+        "foreground": "#A8C3C8"
+      }
+    },
+    {
+      "name": "TypeScript Type Keywords",
+      "scope": [
+        "storage.type.interface",
+        "storage.type.type",
+        "storage.type.enum",
+        "storage.type.class",
+        "storage.type.namespace"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TypeScript Type Operators",
+      "scope": [
+        "keyword.operator.type",
+        "keyword.operator.type.annotation",
+        "keyword.operator.optional",
+        "keyword.operator.definiteassignment"
+      ],
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+    {
+      "name": "TypeScript Generic Type Parameters",
+      "scope": [
+        "punctuation.definition.typeparameters",
+        "meta.type.parameters",
+        "entity.name.type.parameter"
+      ],
+      "settings": {
+        "foreground": "#FAD481"
+      }
+    },
+    {
+      "name": "TypeScript Type Annotation",
+      "scope": [
+        "meta.type.annotation",
+        "meta.return.type"
+      ],
+      "settings": {
+        "foreground": "#A8C3C8"
+      }
+    },
+    {
+      "name": "TypeScript Readonly/Abstract Modifiers",
+      "scope": [
+        "storage.modifier.async",
+        "storage.modifier.ts",
+        "keyword.control.as",
+        "keyword.control.satisfies"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "TS/JS Arrow Function",
+      "scope": [
+        "storage.type.function.arrow.ts",
+        "storage.type.function.arrow.tsx",
+        "storage.type.function.arrow.js",
+        "storage.type.function.arrow.jsx"
+      ],
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+    {
+      "name": "TS/TSX Variable Properties",
+      "scope": [
+        "variable.other.property.ts",
+        "variable.other.property.tsx",
+        "variable.other.object.ts",
+        "variable.other.object.tsx"
+      ],
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+    {
+      "name": "TypeScript Decorator",
+      "scope": [
+        "meta.decorator",
+        "punctuation.decorator"
+      ],
+      "settings": {
+        "foreground": "#FAD481"
+      }
+    },
+
+    {
+      "name": "JSX/TSX Tags",
+      "scope": [
+        "entity.name.tag.js",
+        "entity.name.tag.jsx",
+        "entity.name.tag.tsx",
+        "support.class.component",
+        "support.class.component.jsx",
+        "support.class.component.tsx"
+      ],
+      "settings": {
+        "foreground": "#D167B5"
+      }
+    },
+    {
+      "name": "JSX/TSX Attributes",
+      "scope": [
+        "entity.other.attribute-name.jsx",
+        "entity.other.attribute-name.tsx",
+        "entity.other.attribute-name.js.jsx",
+        "entity.other.attribute-name.ts.tsx"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "JSX/TSX Children Text",
+      "scope": [
+        "meta.jsx.children",
+        "meta.jsx.children.tsx"
+      ],
+      "settings": {
+        "foreground": "#F6F8F7"
+      }
+    },
+    {
+      "name": "JSX/TSX Embedded Expressions",
+      "scope": [
+        "punctuation.section.embedded.begin.jsx",
+        "punctuation.section.embedded.end.jsx",
+        "punctuation.section.embedded.begin.tsx",
+        "punctuation.section.embedded.end.tsx",
+        "meta.embedded.expression"
+      ],
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+    {
+      "name": "JSX/TSX String in Attributes",
+      "scope": [
+        "string.quoted.double.jsx",
+        "string.quoted.single.jsx",
+        "string.quoted.double.tsx",
+        "string.quoted.single.tsx"
+      ],
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+
+    {
+      "name": "Rust Types",
+      "scope": [
+        "entity.name.type.rust",
+        "entity.name.type.struct.rust",
+        "entity.name.type.enum.rust",
+        "entity.name.type.trait.rust",
+        "entity.name.type.union.rust",
+        "entity.name.type.option.rust",
+        "entity.name.type.result.rust"
+      ],
+      "settings": {
+        "foreground": "#A8C3C8"
+      }
+    },
+    {
+      "name": "Rust Type Keywords",
+      "scope": [
+        "storage.type.rust",
+        "storage.type.struct.rust",
+        "storage.type.enum.rust",
+        "storage.type.trait.rust",
+        "storage.type.impl.rust",
+        "storage.type.union.rust",
+        "keyword.other.fn.rust"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust Lifetimes",
+      "scope": [
+        "entity.name.type.lifetime.rust",
+        "punctuation.definition.lifetime.rust",
+        "storage.modifier.lifetime.rust"
+      ],
+      "settings": {
+        "foreground": "#FAD481",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust Macros",
+      "scope": [
+        "entity.name.function.macro.rust",
+        "entity.name.macro.rust",
+        "support.macro.rust",
+        "meta.macro.rust"
+      ],
+      "settings": {
+        "foreground": "#8FC8FF"
+      }
+    },
+    {
+      "name": "Rust Macro Punctuation",
+      "scope": "punctuation.definition.macro.rust",
+      "settings": {
+        "foreground": "#8FC8FF"
+      }
+    },
+    {
+      "name": "Rust Attributes",
+      "scope": [
+        "meta.attribute.rust",
+        "punctuation.definition.attribute.rust",
+        "punctuation.brackets.attribute.rust"
+      ],
+      "settings": {
+        "foreground": "#6B6D8C"
+      }
+    },
+    {
+      "name": "Rust Attribute Content",
+      "scope": "meta.attribute.rust entity.name",
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+    {
+      "name": "Rust mut/unsafe/ref",
+      "scope": [
+        "storage.modifier.mut.rust",
+        "keyword.other.unsafe.rust",
+        "keyword.other.ref.rust",
+        "storage.modifier.ref.rust"
+      ],
+      "settings": {
+        "foreground": "#D167B5",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust Self",
+      "scope": [
+        "variable.language.self.rust",
+        "variable.language.super.rust"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Rust Borrow/Dereference Operators",
+      "scope": [
+        "keyword.operator.borrow.rust",
+        "keyword.operator.dereference.rust",
+        "keyword.operator.sigil.rust"
+      ],
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+    {
+      "name": "Rust Namespace Separator",
+      "scope": "punctuation.separator.namespace.rust",
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+    {
+      "name": "Rust Question Mark Operator",
+      "scope": "keyword.operator.question.rust",
+      "settings": {
+        "foreground": "#D167B5"
+      }
+    },
+    {
+      "name": "Rust Module",
+      "scope": [
+        "entity.name.module.rust",
+        "entity.name.type.mod.rust"
+      ],
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+
+    {
+      "name": "Number Constants",
+      "scope": [
+        "constant.numeric",
+        "constant.numeric.decimal",
+        "constant.numeric.integer",
+        "constant.numeric.float",
+        "constant.numeric.hex"
+      ],
+      "settings": {
+        "foreground": "#FAD481"
+      }
+    },
+    {
+      "name": "String",
+      "scope": [
+        "string.quoted.single",
+        "string.quoted.double",
+        "string.quoted.backtick"
+      ],
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+
+    {
+      "name": "JSON Property Names",
+      "scope": [
+        "support.type.property-name.json",
+        "string.json support.type.property-name"
+      ],
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+
+    {
+      "name": "Import/Export Keywords",
+      "scope": [
+        "keyword.control.import",
+        "keyword.control.export",
+        "keyword.control.from",
+        "keyword.control.default"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Module Specifier Path",
+      "scope": [
+        "string.quoted.module-ref",
+        "meta.import string.quoted"
+      ],
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+
+    {
+      "name": "Constant Variables (SCREAMING_CASE)",
+      "scope": [
+        "variable.other.constant",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#A8C3C8"
+      }
+    },
+    {
+      "name": "this/super Keywords",
+      "scope": [
+        "variable.language.this",
+        "variable.language.super"
+      ],
+      "settings": {
+        "foreground": "#D58FDB",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "new Keyword",
+      "scope": "keyword.operator.new",
+      "settings": {
+        "foreground": "#D167B5",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Spread/Rest Operator",
+      "scope": "keyword.operator.spread",
+      "settings": {
+        "foreground": "#D58FDB"
+      }
+    },
+
+    {
+      "name": "Go Package Names",
+      "scope": "entity.name.package.go",
+      "settings": {
+        "foreground": "#B4C1D0"
+      }
+    },
+    {
+      "name": "Go Types",
+      "scope": [
+        "entity.name.type.go",
+        "storage.type.go"
+      ],
+      "settings": {
+        "foreground": "#A8C3C8"
+      }
     }
   ]
 }
