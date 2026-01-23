@@ -35,4 +35,4 @@ _if you use bracket pair colorizer 2, you can add this to your `settings.json`_
 ![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/preview.jpg)
 ![](https://raw.githubusercontent.com/juanmnl/vs-mr-pink/master/screenshots/movie.jpg)
 
-Made with ♥️ by [juanmnl](https://juanmnl.com)
+Made with ♥️ by [juanmnl](https://www.juanmnl.com)
